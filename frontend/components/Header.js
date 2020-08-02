@@ -23,8 +23,8 @@ const navStyles = {
   display: 'flex', 
   boxShadow: '0px 1px 8px 0px rgba(168,168,168,1)', 
   justifyContent: 'center',
-  fontFamily: "'Nunito', sans-serif",
-  fontWeight: 'bold'
+  fontFamily: "'Lato', sans-serif",
+  fontSize: '1.2rem'
 }
 
 const Header = () => {

@@ -12,7 +12,7 @@ class MyDocument extends Document {
             rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           />
-          <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"></link>
+          <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
         </Head>
         <body>
           <Main />
