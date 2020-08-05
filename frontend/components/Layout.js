@@ -9,13 +9,18 @@ const Wrapper = styled.div`
     justify-content: space-between;
 `;
 
+const Container = styled.section`
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+`;
+
 const Layout = ({ children }) => {
     return (
         <Wrapper>
             <Header />
-            <div className="container">
+            <Container>
                 {children}
-            </div>
+            </Container>
             <Footer />
         </Wrapper>
     );
