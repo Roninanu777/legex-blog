@@ -6,3 +6,15 @@
     max-height: 500px;
     object-fit: cover;
 }
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{ 
+    background-color: #c4c4c4;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #0A1725;
+}
