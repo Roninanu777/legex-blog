@@ -84,8 +84,8 @@ const SignupComponent = () => {
                     />
                 </div>
 
-                <div>
-                    <button className="btn btn-primary">Signup</button>
+                <div className="form-group">
+                    <button className="btn btn-info">Signup</button>
                 </div>
             </form>
         );

@@ -36,7 +36,7 @@ const Header = () => {
 
   return (
     <div style={navStyles}>
-      <Navbar style={{width: '6%'}} color="light" light expand="md">
+      <Navbar style={{width: '60%'}} color="light" light expand="md">
         <NavbarBrand style={{ cursor: "pointer" }}>
           <Link href="/">
             <img width="150" src={logo} alt="legex-logo" />

@@ -56,6 +56,7 @@ const RightFooterContent = styled.section`
 const Ul = styled.ul`
     list-style: none;
     color: white;
+    margin: 2rem;
 `;
 
 class Footer extends Component {
@@ -72,10 +73,10 @@ class Footer extends Component {
                             <Button type="submit"><img src={arrowwhite} alt="arrow" /></Button>
                         </Subscribe>
                         <SocialSite>
-                            <SocialImg src={facebook} alt="facebook" />
-                            <SocialImg src={instagram} alt="instagram" />
-                            <SocialImg src={linkedin} alt="linkedin" />
-                            <SocialImg src={medium} alt="medium" />
+                            <a href="https://www.facebook.com/legex.in" target="_blank"><SocialImg src={facebook} alt="facebook" /></a>
+                            <a href="https://www.instagram.com/legex.in/" target="_blank"><SocialImg src={instagram} alt="instagram" /></a>
+                            <a href="https://www.linkedin.com/company/legex-india/" target="_blank"><SocialImg src={linkedin} alt="linkedin" /></a>
+                            <a href="https://medium.com/legex" target="_blank"><SocialImg src={medium} alt="medium" /></a>
                         </SocialSite>
                         <p className="text-muted mt-3">&copy; Legexhub Technology Pvt Ltd.</p>
                     </LeftFooterContent>

@@ -12,6 +12,8 @@ const Wrapper = styled.div`
 const Container = styled.section`
     margin-top: 5rem;
     margin-bottom: 5rem;
+    width: 60%;
+    align-self: center;
 `;
 
 const Layout = ({ children }) => {
